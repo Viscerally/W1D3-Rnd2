@@ -5,7 +5,7 @@
 
 function countLetters (string) {
   var objLetterCount = {};
-  var noSpaces = string.split(" ").join("");
+  var noSpaces = string.toLowerCase().split(" ").join("");
   // console.log(noSpaces);
   for (var i = 0; i < noSpaces.length; i++){
     // console.log(string[i]);
