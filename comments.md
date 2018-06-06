@@ -1,12 +1,12 @@
-# Writing some markdown
+# The two assignments for W1D3 are here
 
 
-## this is the format for MD
+## There are two JS files in this project
 
-- this is a list
+- countLetters.js counts the characters in a string and returns how many instances of those characters
 
-- this is a list:
+- countIndices.js does the same thing as count letters except:
 
-- - this is a nested list
-  - MD is smart enough to figure out a nested list
+  - it returns an object with a nested array
+  - it logs the index position in which the characters appear in a string
 
